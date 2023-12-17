@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <!-- Настройки для правильного отображения контента -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="stylesheet" href="styles/style_auth.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<!-- Отступ основного контента от границ окна -->
+<body>
+    <div class="authorisation">
+        <div><h1>Войти в аккаунт | Регистрация</h1></div>
+
+        <label>Логин: <input type="text" id="login"></label>
+        <label>Пароль: <input type="password"></label>
+        <label id="askForRegistrationLabel">Желаете провести регистрацию на сайте? <input type="text" id="askForRegistration"></label>
+        <span id="react">Круто!</span>
+        <button type="submit" id="submitAuth">Войти</button>
+    </div>
+    <script src="script_auth.js"></script>
+</body>
+</html>

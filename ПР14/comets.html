@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <!-- Настройки для правильного отображения контента -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Астероиды и кометы</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<!-- Отступ основного контента от границ окна -->
+<body style="margin: 10px">
+<header style="user-select: none">
+    <img id="logo" src="./images/logo.png" alt="Логотип">
+    <h1 id="Topic1">Астероиды и Кометы</h1>
+    <input type="checkbox" id="burger"/>
+    <label for="burger">☰</label>
+    <nav id="main_nav">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="asteroids.html">Астероиды</a></li>
+            <li><a href="comets.html">Кометы</a></li>
+            <li><a href="scientists.html">Учёные</a></li>
+            <li><a href="shop.html">Магазин</a></li>
+        </ul>
+    </nav>
+
+
+    <!--    <div id="starcount">                                          СЧЁТЧИК ЗВЁЗД-->
+    <!--        <span>Звёзд на небе:</span>-->
+    <!--        <span id="stars_amount"></span>-->
+    <!--    </div>-->
+
+
+</header>
+<main>
+    <section>
+        <h2 class="header">КОМЕТЫ</h2>
+        <aside class="tertiary card_with_pic_on_side">
+            <img src="./images/card_comet3.svg" alt="Здесь должна была быть комета">
+            <p>В отличие от своих родственников, кометы сыскали большую любовь у публики. Именно пролетающая над небом "падающая звезда"
+                испокон веков считалась счастливым знаком, который, если вовремя загадать желание, гарантирует исполнение такового...</p>
+        </aside>
+
+        <article class="primary img_left_popup" id="comet_description">
+            <img src="./images/comet_article.jpg" alt="Комета">
+            <div>
+                <h3>Определение</h3>
+                <p>Коме́та — небольшое небесное тело, обращающееся вокруг Солнца по весьма вытянутой орбите в виде конического сечения.
+                    При приближении к Солнцу комета образует кому и иногда хвост из газа и пыли.
+                    На август 2021 года обнаружено 6996 комет, которые попадают во внутреннюю область Солнечной системы или область планет.</p>
+            </div>
+        </article>
+
+        <article class="primary" id="comet_classification">
+            <div>
+                <h3>Классификация комет</h3>
+
+                <p>Так же как и у астероидов, у комет имеется собственная классификация. Эта классификация указывает
+                    на
+                    природу кометы:</p>
+                <dl>
+                    <dt>P/</dt>
+                    <dd>Короткопериодическая комета (то есть комета, чей период меньше 200 лет, или которая
+                        наблюдалась
+                        в
+                        двух или более прохождениях перигелия)
+                    </dd>
+
+                    <dt>C/</dt>
+                    <dd>Долгопериодическая комета</dd>
+
+                    <dt>I/</dt>
+                    <dd>Межзвездная комета</dd>
+                    <dd>Комета с эксцентриситетом орбиты большим 1</dd>
+
+                    <dt>X/</dt>
+                    <dd>Комета, достоверную орбиту для которой не удалось вычислить (обычно для исторических
+                        комет)
+                    </dd>
+
+                    <dt>D/</dt>
+                    <dd>Кометы разрушились или были потеряны</dd>
+
+                    <dt>A/</dt>
+                    <dd>Объекты, которые были ошибочно приняты за кометы, но реально оказавшиеся астероидами</dd>
+                </dl>
+            </div>
+            
+        </article>
+
+        <article class="primary scene" id="parallax">
+            <div data-acceleration="10" class="layer layer-bg"></div>
+            <div data-acceleration="30" class="layer layer-1"></div>
+            <div data-acceleration="110" class="layer layer-2"></div>
+        </article>
+        <aside class="tertiary card_with_pic_on_side_right">
+            <h3>Минутка интересных технологий</h3>
+            <p>Параллакс - это особый способ изображения картинки. Таковая делится на несколько
+                слоёв, каждый из которых содержит элементы, по-разному "удалённых от экрана".
+                При взаимодействии с картинкой слои, в зависимости от расположения, двигаются
+                неодинаково, создавая иллюзию объёмной картинки. Попробуйте подвигать картинку ниже
+                вправо и влево, и она оживёт!</p>
+            <img src="./images/card_comet4.svg" alt="Комета">
+        </aside>
+
+        <article class="primary">
+            <h3>А почему кометы привлекают?</h3>
+            <p>Почему не астероиды, а кометы заслужили такую славу? Можно выделить как минимум три причины:</p>
+            <div class="container">
+                <div class="box">
+                    <span></span>
+                    <div class="content">
+                        <h2>КРАСОТА</h2>
+                        <p>Огненно-леденисто-пыльный хвост различных оттенков может заворожить
+                        любого человека.</p>
+                        <a href="#parallax">Прямо как параллакс</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <span></span>
+                    <div class="content">
+                        <h2>РЕДКОСТЬ</h2>
+                        <p>Вероятность увидеть комету вживую настолько мала, что сам факт появления
+                        таковой на горизонте считается недюжинной удачей.</p>
+                        <a href="#comet_classification">Особенно если это комета класса C</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <span></span>
+                    <div class="content">
+                        <h2>ПРИДАВАЕМЫЙ СМЫСЛ</h2>
+                        <p>Комета - таинственное тело, созданное и живущее вне нашей привычной планеты.
+                        Её существование и появление всегда связывали с наиболее значимыми событиями народа,
+                        человечества.</p>
+                        <a href="#comet_description">Хотя уже есть точное определение кометы</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+    </section>
+
+    <a href="https://www.youtube.com/channel/UCw3kC8bNBsX5AhUzncCA-1Q" class="fa fa-youtube" id="youtube"
+       aria-hidden="true"></a>
+    <a href="https://ok.ru/profile/568895492773" class="fa fa-odnoklassniki" id="odnoklassniki" aria-hidden="true"></a>
+    <a href="https://vk.com/id379264399" class="fa fa-vk" id="vk" aria-hidden="true"></a>
+
+    <input type="checkbox" id="notif"/>
+    <label for="notif">
+        <span class="material-icons">notifications</span>
+        <span class="icon-button__badge">0</span>
+
+        <ul style="position: absolute">
+            <!--            <li>Уведомление 1</li>-->
+            <!--            <li>Уведомление 2</li>-->
+            <!--            <li>Уведомление 3</li>-->
+            <!--            <li>Уведомление 4</li>-->
+        </ul>
+    </label>
+
+    <a href="#" class="to_start">⇑</a>
+
+</main>
+
+<!-- Якори -->
+<footer class="copyright" id="main_end">
+    <span><b>Астероиды и Кометы</b></span>
+    <div><a href="#" id="r_i">Вернуться в начало</a></div>
+    <address id="address">
+        <div><a href="tel:283122">Связаться с нами</a></div>
+        <div><a href="mailto:mail@gmail.com">Написать письмо</a></div>
+    </address>
+
+    <a href="https://vk.com/share.php?title=Астероиды%20и%20кометы&amp;url=https%3A%2F%2Filyapodkolzin.github.io%2FDevelopmentOfClientPartsOfInternetResourses%2F"
+       target="_blank"
+       rel="noopener"
+       class="button_SHARE"
+       type="button">
+        Поделиться сайтом
+        <span class="glitter"></span>
+    </a>
+
+    <a href="https://vk.com/id379264399" class="cross_button">IlyaMorozov, 2023-2023</a>
+
+    <div id="warning_COPYRIGHT">Морозов Илья Сергеевич, ИКБО-16-22</div>
+</footer>
+
+</body>
+
+<script src="script.js"></script>
+</html>

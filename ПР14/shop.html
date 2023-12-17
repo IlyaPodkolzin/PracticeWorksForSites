@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <!-- Настройки для правильного отображения контента -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Астероиды и кометы</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<!-- Отступ основного контента от границ окна -->
+<body style="margin: 10px">
+<header style="user-select: none">
+    <img id="logo" src="./images/logo.png" alt="Логотип">
+    <h1 id="Topic1">Астероиды и Кометы</h1>
+    <input type="checkbox" id="burger"/>
+    <label for="burger">☰</label>
+    <nav id="main_nav">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="asteroids.html">Астероиды</a></li>
+            <li><a href="comets.html">Кометы</a></li>
+            <li><a href="scientists.html">Учёные</a></li>
+            <li><a href="shop.html">Магазин</a></li>
+        </ul>
+    </nav>
+
+
+    <!--    <div id="starcount">                                          СЧЁТЧИК ЗВЁЗД-->
+    <!--        <span>Звёзд на небе:</span>-->
+    <!--        <span id="stars_amount"></span>-->
+    <!--    </div>-->
+
+
+</header>
+<main>
+    <section>
+        <h2 class="header">МАГАЗИН</h2>
+
+        <article class="tertiary card_with_pic_on_side card_with_pic_on_side_right">
+            <img src="./images/card_comet5.svg" alt="Комета">
+            <p>Астероиды и Кометы - прекрасные и ужасные, таинственные и всеми известные, такие разные и одновременно
+                похожие!
+                В особенности похожи они тем, что <strong>такое интересное космическое явление нельзя просто взять и
+                    оставить у себя дома в качестве
+                    украшения или носить с собой как талисман... Или всё-таки можно?</strong></p>
+            <img src="./images/card_asteroid6.svg" alt="Астероид">
+        </article>
+
+        <article class="primary">
+
+            <h3>Астероиды, Кометы... и Технологический Прорыв!</h3>
+
+            <p>В последнее время всё больше и больше получают развитие технологии искусственного интеллекта и
+                нейросетей.
+                Уже сейчас они способны отвечать на вопросы, помогать написать программный код, составлять тексты
+                различной сложности
+                и создавать картинки. В том числе картинки Астероидов и Комет! Ниже представлены семь изображений,
+                созданных
+                исключительно нейросетью, — четыре астероида и три кометы — посмотрите на них и оцените возможности
+                технологий сегодняшнего дня!</p>
+
+            <div id="scroller"><div></div></div>
+
+            <div id="selected_mid_picture">
+                <img src="./images/ai_com4.png" alt="Комета4">
+            </div>
+
+            <div id="mid_pictures">
+                <div id="img1">
+                    <img src="./images/ast1.png" alt="Астероид1">
+                    <p>Это - астероид, сгенерированный нейросетью. Действительно похоже!</p>
+                </div>
+                <div id="img2">
+                    <img src="./images/ast2.png" alt="Астероид2">
+                    <p>Так же нарисован и этот астероид. Больше похож на планету.</p>
+                </div>
+                <div id="img3">
+                    <img src="./images/ast3.png" alt="Астероид3">
+                    <p>Вновь отличное сходство!</p>
+                </div>
+                <div id="img4">
+                    <img src="./images/ast4.png" alt="Астероид4">
+                    <p>И снова что-то странное...</p>
+                </div>
+                <div id="img5">
+                    <img src="images/ai_com1.png" alt="Комета1">
+                    <p>А это уже комета. Или ракета...</p>
+                </div>
+                <div id="img6">
+                    <img src="images/ai_com2.png" alt="Комета2">
+                    <p>И это...комета...то есть планета...</p>
+                </div>
+                <div id="img7">
+                    <img src="images/ai_com3.png" alt="Комета3">
+                    <p>И всё же у нейросети получилось нарисовать красивую комету! Это многое говорит о технологическом
+                        прогрессе.</p>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <article class="primary" id="shoplist_article">
+        <div>
+            <h3>Сувенирный магазин</h3>
+
+            <p>Понравилось творение нейросетей? На нашем сайте у Вас есть возможность приобрести брелки с этими
+                изображениями! (Обратите внимание, что количество
+                брелков одного вида на одни руки не превышает 5.)</p>
+
+            <div id="shoplist_filter">
+                <label>Фильтр: цена от
+                    <input type="number" id="minimum_input">
+                    до
+                    <input type="number" id="maximum_input">
+                </label>
+            </div>
+
+            <div class="scroller_wrapper">
+                <span id="no_match">Ничего не найдено.</span>
+                <div class="scroller_item">
+                    <img src="./images/ast1.png" alt="АстероИд-1">
+                    <span>AстероИд-1</span>
+                    <span><b>150Р/шт</b></span>
+                    <button id="btnSell1">&#8722;</button>
+                    <button id="btnBuy1">&#43;</button>
+                </div>
+                <div class="scroller_item">
+                    <img src="./images/ast2.png" alt="АстероИд-2">
+                    <span>АстероИд-2</span>
+                    <span><b>50Р/шт</b></span>
+                    <button id="btnSell2">&#8722;</button>
+                    <button id="btnBuy2">&#43;</button>
+                </div>
+                <div class="scroller_item">
+                    <img src="./images/ast3.png" alt="АстероИд-3">
+                    <span>АстероИд-3</span>
+                    <span><b>100Р/шт</b></span>
+                    <button id="btnSell3">&#8722;</button>
+                    <button id="btnBuy3">&#43;</button>
+                </div>
+                <div class="scroller_item">
+                    <img src="./images/ast4.png" alt="АстероИд-4">
+                    <span>АстероИд-4</span>
+                    <span><b>70Р/шт</b></span>
+                    <button id="btnSell4">&#8722;</button>
+                    <button id="btnBuy4">&#43;</button>
+                </div>
+                <div class="scroller_item">
+                    <img src="images/ai_com1.png" alt="Комета-1">
+                    <span>Комета-1</span>
+                    <span><b>130Р/шт</b></span>
+                    <button id="btnSell5">&#8722;</button>
+                    <button id="btnBuy5">&#43;</button>
+                </div>
+                <div class="scroller_item">
+                    <img src="images/ai_com2.png" alt="Комета-2">
+                    <span>Комета-2</span>
+                    <span><b>200Р/шт</b></span>
+                    <button id="btnSell6">&#8722;</button>
+                    <button id="btnBuy6">&#43;</button>
+                </div>
+                <div class="scroller_item">
+                    <img src="images/ai_com3.png" alt="Комета-3">
+                    <span>Комета-3</span>
+                    <span><b>180Р/шт</b></span>
+                    <button id="btnSell7">&#8722;</button>
+                    <button id="btnBuy7">&#43;</button>
+                </div>
+            </div>
+
+            <div class="shoplist_wrapper droppable" id="shoplist_wrapper">
+                <h2>Корзина</h2>
+                <span id="sort_info">(не отсортировано)</span>
+                <button id="delete_shoplist">🗑️</button>
+                <button id="sort_shoplist">></button>
+                <span id="empty">В корзине ничего нет.</span>
+                <span id="total">Итого: 0 руб</span>
+                <div id="shoplist_scroll"></div>
+            </div>
+
+        </div>
+
+    </article>
+
+    <a href="https://www.youtube.com/channel/UCw3kC8bNBsX5AhUzncCA-1Q" class="fa fa-youtube" id="youtube"
+       aria-hidden="true"></a>
+    <a href="https://ok.ru/profile/568895492773" class="fa fa-odnoklassniki" id="odnoklassniki" aria-hidden="true"></a>
+    <a href="https://vk.com/id379264399" class="fa fa-vk" id="vk" aria-hidden="true"></a>
+
+    <input type="checkbox" id="notif"/>
+    <label for="notif">
+        <span class="material-icons">notifications</span>
+        <span class="icon-button__badge">0</span>
+
+        <ul style="position: absolute">
+            <!--            <li>Уведомление 1</li>-->
+            <!--            <li>Уведомление 2</li>-->
+            <!--            <li>Уведомление 3</li>-->
+            <!--            <li>Уведомление 4</li>-->
+        </ul>
+    </label>
+
+    <a href="#" class="to_start">⇑</a>
+
+    <img id="comet_animation" style="z-index:10001; position: absolute; top: 0; right: 0" src="./images/parallax_layer2.png" alt="Комета">
+
+</main>
+
+<!-- Якори -->
+<footer class="copyright" id="main_end">
+    <span><b>Астероиды и Кометы</b></span>
+    <div><a href="#" id="r_i">Вернуться в начало</a></div>
+    <address id="address">
+        <div><a href="tel:283122">Связаться с нами</a></div>
+        <div><a href="mailto:mail@gmail.com">Написать письмо</a></div>
+    </address>
+
+    <a href="https://vk.com/share.php?title=Астероиды%20и%20кометы&amp;url=https%3A%2F%2Filyapodkolzin.github.io%2FDevelopmentOfClientPartsOfInternetResourses%2F"
+       target="_blank"
+       rel="noopener"
+       class="button_SHARE"
+       type="button">
+        Поделиться сайтом
+        <span class="glitter"></span>
+    </a>
+
+    <a href="https://vk.com/id379264399" class="cross_button">IlyaMorozov, 2023-2023</a>
+
+    <div id="warning_COPYRIGHT">Морозов Илья Сергеевич, ИКБО-16-22</div>
+</footer>
+
+</body>
+
+<script src="script.js"></script>
+</html>
