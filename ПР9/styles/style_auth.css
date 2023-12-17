@@ -1,0 +1,55 @@
+html {
+    display: flex;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.authorisation {
+    background-color: rgba(25, 28, 27, 0.6);
+    display: flex;
+    position: relative;
+    flex-flow: column wrap;
+    row-gap: 15px;
+    padding: 100px 60px;
+    border-radius: 5%;
+    font-size: larger;
+    color: white;
+
+    & h1 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+
+    & input {
+        font-size: inherit;
+        border: 2px solid black;
+    }
+
+    & label {
+        font-size: larger;
+    }
+
+    & #askForRegistrationLabel {
+        margin-top: 30px;
+        font-size: unset;
+    }
+
+    & span {
+        color: #c5e7ff;
+        opacity: 0;
+    }
+
+    & button {
+        padding: 5px;
+        font-size: large;
+        transition: .5s all;
+        background-color: #bdc7c3;
+    }
+
+    & button:hover {
+        background-color: #687572;
+        color: white;
+    }
+}

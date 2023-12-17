@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <!-- Настройки для правильного отображения контента -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Астероиды и кометы</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<!-- Отступ основного контента от границ окна -->
+<body style="margin-left: 10px">
+<header style="user-select: none">
+    <img id="logo" src="images/logo.jpg">
+    <h1 id="Topic1">Астероиды и Кометы</h1>
+    <input type="checkbox" id="burger"/>
+    <label for="burger">☰</label>
+    <nav id="main_nav">
+        <ul>
+            <li><a href="asteroids.html">Астероиды</a></li>
+            <li><a href="comets.html">Кометы</a></li>
+            <li><a href="scientists.html">Учёные</a></li>
+            <li><a href="researches.html">Открытия</a></li>
+            <li><a href="live.html">LIVE</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div id="INITIAL_Div">
+        <p>Над нашей головой простирается безграничный космос, заполненный различными небесными телами. Существование
+            столь невообразимого пространства по сей день поражает человечество, представители которого <strong>часто
+                сравнивают их существование как провидение</strong>.
+            <br></p>
+        <p>Появление на горизонте некоторых таких объектов часто ассоциируется с удачей и исполнением заветных желаний,
+            и имя им - <em>астероиды и кометы</em>.</p>
+        <div class="tertiary">
+            <div class="quote_symbol">〞</div>
+            <pre><q>Я видел метеоритный дождь. Мир полон чудес.</q>
+                                <cite>– Майкл Джексон</cite></pre>
+        </div>
+    </div>
+
+    <section>
+        <h2 id="Topic2">История изучения</h2>
+
+        <article class="primary hidden_overflow">
+            <h3>Расшифровка определения</h3>
+            <img class="need_border" src="images/asteroid.jpg" id="asteroid_termin">
+            <img class="need_border" src="images/comet.jpg" id="comet_termin">
+            <p>
+                Термин "астероид" был придуман композитором <b><a href="https://ru.wikipedia.org/wiki/Бёрни,_Чарлз">Чарлзом
+                Бёрни</a></b> и далее введён <b><a href="https://ru.wikipedia.org/wiki/Гершель,_Уильям">Уильямом
+                Гершелем</a></b>.
+                В переводе с древнегреческого этот термин означает "похожий на звезду". Ранее ввиду несовершенства
+                технологий в телескопе данные объекты отображались как звезды. До 2006 года также было распространено
+                название "малые планеты".<br><br>
+                Название "комета" было введено древнегреческим астрономом и философом <b><a
+                    href="https://ru.wikipedia.org/wiki/Аристотель">Аристотелем</a></b>. В переводе с
+                древнегреческого
+                означает "косматый", "волосатый", что отсылает на хвост, который мы обычно видим вместе с кометой.
+            </p>
+            <button type="button">❤</button>
+        </article>
+
+        <article class="primary">
+
+            <h3>Первые находки</h3>
+
+            <figure class="ChGA_figure" id="Charles">
+                <img class="need_border"
+                     src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Charles_Burney.jpg?20091003232026"
+                     title="Чарлз Бёрни" alt="Чарлз Бёрни">
+                <figcaption><a href="https://ru.wikipedia.org/wiki/Бёрни,_Чарлз">Чарлз Бёрни</a></figcaption>
+            </figure>
+
+            <figure class="ChGA_figure" id="William">
+                <img class="need_border"
+                     src="https://upload.wikimedia.org/wikipedia/commons/3/36/William_Herschel01.jpg"
+                     title="Уильям Гершель" alt="Уильям Гершель">
+                <figcaption><a href="https://ru.wikipedia.org/wiki/Гершель,_Уильям">Уильям Гершель</a></figcaption>
+            </figure>
+
+            <figure class="ChGA_figure" id="Aristotle">
+                <img class="need_border"
+                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/800px-Aristotle_Altemps_Inv8575.jpg"
+                     title="Аристотель" alt="Аристотель">
+                <figcaption><a href="https://ru.wikipedia.org/wiki/Аристотель">Аристотель</a></figcaption>
+            </figure>
+
+            <div>
+                <p>Несмотря на то что для поиска и исследования астероидов в 1789 году была образована группа из 24
+                    астрономов,
+                    самый первый астероид Церера был обнаружен не участвовавшим в поисках итальянским математиком <b><a
+                            href="https://ru.wikipedia.org/wiki/Пьяцци,_Джузеппе">Джузеппе Пьяцци</a></b>.
+                    Долгое время данный объект считался полноценной планетой, даже после того как в 1802 году был
+                    причислен
+                    к астероидам.
+                    После уточнения понятия "планета" XXVI Генеральной Ассамблеей <abbr
+                            title="Международный Астрономический Союз">МАС</abbr> в 2006 году Церера получила название
+                    карликовой планеты.
+                    Она является одним из наибольших космических тел среди астероидов, в диаметре достигая <u>950
+                        километров</u>.</p>
+
+                <p>На сайте <b><a href="https://mks-onlain.ru/pervaya-kometa-kto-otkryl/">МКС Онлайн</a></b> написано
+                    следующее об открытии первой кометы:</p>
+                <blockquote><i>Самая древняя упоминаемая источником комета была замечена в Аккаде в 164 году до нашей
+                    эры.
+                    Аккадские жители называли комету «мечем звезды» и рассматривали ее появление как знак грядущих
+                    бедствий.</i></blockquote>
+                <p>Однако первой полностью изученной кометой, получившей название, является комета Галлея, открытая в
+                    1758
+                    году
+                    и названная в честь учёного Эдмунда Галлея.</p>
+            </div>
+            <button type="button">❤</button>
+        </article>
+
+        <div class="text-picture_block">
+            <aside class="secondary" id="asteroid_class">
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Potw1749a_Pallas_crop.png"
+                         title="2 Паллада" alt="2 Паллада">
+                    <figcaption><a href="https://ru.wikipedia.org/wiki/(2)_Паллада">2 Паллада, крупнейший
+                        представитель
+                        астероидов класса B</a></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Ceresintruecolor.png"
+                         title="Церера" alt="Церера">
+                    <figcaption><a href="https://ru.wikipedia.org/wiki/Церера">1 Церера, крупнейший представитель
+                        астероидов класса G</a></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Орбита_астероида_2442.png"
+                         title="Корбетт" alt="Корбетт">
+                    <figcaption><a href="https://ru.wikipedia.org/wiki/(2442)_Корбетт">2442 Корбетт, представитель
+                        астероидов класса J</a></figcaption>
+                </figure>
+            </aside>
+
+            <article class="primary">
+                <div>
+                    <h3>Классификация астероидов</h3>
+
+                    <p>Для описания астероида используется классификация, опирающаяся на цвет астероида и отражательную
+                        способность его поверхности (альбедо):</p>
+                    <ol type="I" start="0">
+                        <li>Класс A — характеризуются достаточно высоким альбедо (между 0,17 и 0,35) и красноватым
+                            цветом в
+                            видимой части спектра.
+                        </li>
+                        <li>Класс B — в целом относятся к астероидам класса C, но почти не поглощают волны ниже 0,5 мкм,
+                            а
+                            их
+                            спектр слегка голубоватый. Альбедо в целом выше, чем у других углеродных астероидов.
+                        </li>
+                        <li>Класс D — характеризуются очень низким альбедо (0,02−0,05) и ровным красноватым спектром без
+                            чётких
+                            линий поглощения.
+                        </li>
+                        <li>Класс E — поверхность этих астероидов содержит в своём составе такой минерал, как энстатит и
+                            может
+                            иметь сходство с ахондритами.
+                        </li>
+                        <li>Класс F — в целом схожи с астероидами класса B, но без следов «воды».</li>
+                        <li>Класс G — характеризуется низким альбедо и почти плоским (и бесцветным) в видимом диапазоне
+                            спектром
+                            отражения, что свидетельствует о сильном ультрафиолетовом поглощении.
+                        </li>
+                        <li>Класс P — как и астероиды класса D, характеризуются довольно низким альбедо, (0,02−0,07) и
+                            ровным
+                            красноватым спектром без чётких линий поглощения.
+                        </li>
+                        <li>Класс Q — на длине волны 1 мкм в спектре этих астероидов присутствуют яркие и широкие линии
+                            оливина
+                            и пироксена и, кроме того, особенности, указывающие на наличие металла.
+                        </li>
+                        <li>Класс R — характеризуются относительно высоким альбедо и красноватый спектром отражения на
+                            длине
+                            0,7
+                            мкм.
+                        </li>
+                        <li>Класс T — характеризуется низким альбедо и красноватым спектром (с умеренным поглощением на
+                            длине
+                            волны 0,85 мкм), который похож на спектр астероидов P и D классов, но по наклону занимающий
+                            промежуточное положение.
+                        </li>
+                        <li>Класс V — астероиды этого класса умеренно яркие и довольно близки к более общему S классу,
+                            которые
+                            также в основном состоят из камня, силикатов и железа (хондритов), но отличаются S более
+                            высоким
+                            содержанием пироксена.
+                        </li>
+                        <li>Класс J — это класс астероидов, образовавшихся, предположительно, из внутренних частей
+                            Весты. Их
+                            спектры близки к спектрам астероидов V класса, но их отличает особо сильные линии поглощения
+                            на
+                            длине волны 1 мкм.
+                        </li>
+                    </ol>
+                    <p>Ранее классификация основывалась лишь на типе материала и включала в себя три пункта:</p>
+                    <ol>
+                        <li id="classification">Класс С — углерод <sub>6</sub>S [2s<sup>2</sup>2p<sup>2</sup>].
+                            <ul>
+                                <li>Т.е. состоящие из карбонатов</li>
+                                <li>К этому классу относится 75% известных астероидов</li>
+                            </ul>
+                        </li>
+                        <li>Класс S — кремний <sub>14</sub>S [3s<sup>2</sup>3p<sup>2</sup>].
+                        <ul>
+                            <li>Т.е. состоящие из силикатов</li>
+                            <li>К этому классу относится 17% известных астероидов</li>
+                        </ul>
+                        </li>
+                        <li>Класс M — металл.</li>
+                        <ul>
+                            <li>К этому классу относятся остальные известные астероиды</li>
+                        </ul>
+                    </ol>
+                </div>
+                <button type="button">❤</button>
+            </article>
+        </div>
+
+        <article></article>
+
+        <article class="primary">
+            <div>
+                <h3>Классификация комет</h3>
+
+                <p>Так же как и у астероидов, у комет имеется собственная классификация. Эта классификация указывает
+                    на
+                    природу кометы:
+                <p>
+                <dl>
+                    <dt>P/</dt>
+                    <dd>Короткопериодическая комета (то есть комета, чей период меньше 200 лет, или которая
+                        наблюдалась
+                        в
+                        двух или более прохождениях перигелия)
+                    </dd>
+
+                    <dt>C/</dt>
+                    <dd>Долгопериодическая комета</dd>
+
+                    <dt>I/</dt>
+                    <dd>Межзвездная комета</dd>
+                    <dd>Комета с эксцентриситетом орбиты большим 1</dd>
+
+                    <dt>X/</dt>
+                    <dd>Комета, достоверную орбиту для которой не удалось вычислить (обычно для исторических
+                        комет)
+                    </dd>
+
+                    <dt>D/</dt>
+                    <dd>Кометы разрушились или были потеряны</dd>
+
+                    <dt>A/</dt>
+                    <dd>Объекты, которые были ошибочно приняты за кометы, но реально оказавшиеся астероидами</dd>
+                </dl>
+            </div>
+            <button type="button">❤</button>
+        </article>
+
+<!--        <article class="primary">-->
+<!--            <div>-->
+<!--                <h3>Символы астероидов</h3>-->
+<!--                <p>Для первых 37 открытых астероидов были введены особые обозначения - астрономические символы.-->
+<!--                    Ниже на картинке представлены некоторые такие символы.-->
+<!--                </p>-->
+<!--                <img src="images/symbols.png" id="map_image" usemap="#symbols">-->
+<!--                <map name="symbols">-->
+<!--                    <area shape="circle" coords="128, 128, 120" href="https://ru.wikipedia.org/wiki/(5)_Астрея">-->
+<!--                    <area shape="rect" coords="548, 36, 732, 220" href="https://ru.wikipedia.org/wiki/(4)_Веста">-->
+<!--                    <area shape="poly" coords="384, 10, 246, 244, 521, 244"-->
+<!--                          href="https://ru.wikipedia.org/wiki/(2)_Паллада">-->
+<!--                </map>-->
+<!--            </div>-->
+<!--        </article>-->
+
+        <aside class="tertiary">
+            <p>Было бы здорово, если бы каждый астероид имел уникальный символ, но учитывая их количество (более 3000!)
+                это практически нереально.</p>
+        </aside>
+
+        <article class="primary">
+            <div>
+                <h3>Карта планетариев</h3>
+                <p>Предлагаем вам карту планетариев Москвы, в которых можно узнать больше об астероидах и кометах.</p>
+                <iframe src="https://yandex.ru/map-widget/v1/?ll=37.590500%2C55.761214&mode=search&oid=1085926055&ol=biz&sll=37.583661%2C55.761411&sspn=0.010428%2C0.005057&text=%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0%D1%80%D0%B8%D0%B9%20%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&z=16.2"
+                        width="100%" height="400" frameborder="0"></iframe>
+            </div>
+            <button type="button">❤</button>
+        </article>
+
+        <article class="primary">
+            <div>
+                <h3>ВИДЕО: отличие астероидов и комет</h3>
+                <p>Для большего понимания разницы этих двух небесных тел предлагаем посмотреть короткие видео.</p>
+
+                <iframe class width="50%" height="315px"
+                        src="https://www.youtube.com/embed/WgYej_Jmrqk?si=RT2fHalx7zVvesxi"
+                        title="YouTube video player" frameborder="0"></iframe>
+
+                <div class="video_with_description">
+                    <video controls loop muted playsinline height="315" poster="images/poster_difference.png">
+                        <source src="videos/difference.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <button type="button">❤</button>
+        </article>
+
+        <div class="form_div">
+            <span></span>
+            <span></span>
+            <span></span>
+            <form id="form_post" method="post">
+                <fieldset>
+                    <legend>Есть новый материал? Предложите его нам!</legend>
+                    <div id="namee">
+                        <label>
+                            Имя пользователя: <input type="text" name="username" minlength="2" maxlength="30" required
+                                                     placeholder="Some_guy">
+                        </label>
+                    </div>
+
+                    <div id="phone">
+                        <label for="telephone">Номер телефона: </label>
+                        <input type="tel" name="telephone" id="telephone" pattern="[+][7][0-9]{10}"
+                               placeholder="+78005553535">
+                    </div>
+
+                    <div id="mail">
+                        <label for="email">Электронная почта: </label>
+                        <input type="email" name="email" id="email" required placeholder="s105@mail.ru">
+                    </div>
+
+                    <div id="code">
+                        <label for="passwd">Кодовое слово: </label>
+                        <input type="password" name="passwd" id="passwd" minlength="4" placeholder="Для продвижения">
+                    </div>
+
+                    <div id="pic">
+                        <label for="file">Картинка к статье: </label>
+                        <input type="file" name="file" id="file" accept="image/*">
+                    </div>
+
+                    <div id="send_notification">
+                        <label>Отправить на почту уведомление о рассмотрении записи: <input type="checkbox"
+                                                                                            name="checkbox"
+                                                                                            checked></label>
+                    </div>
+
+                    <div id="choose_truth">
+                        <p>Что представляет собой запись?</p>
+                        <label><input type="radio" name="radio" checked> Подтверждённые факты</label>
+
+                        <label><input type="radio" name="radio"> Текущие исследования</label>
+
+                        <label><input type="radio" name="radio"> Выдвинутые теории</label>
+
+                        <label><input type="radio" name="radio"> Собственная гипотеза</label>
+                    </div>
+
+                    <div id="datee">
+                        <label>Дата: <input type="datetime-local" name="dtl" id="dtl" min="2023-09-30T00:00"
+                                            max="2050-01-01T00:00" required></label>
+                    </div>
+
+                    <div id="textee">
+                        <label for="post_text">Текст материала:</label>
+                        <textarea id="post_text" rows="5" cols="30"
+                                  placeholder="Напишите свой текст здесь. (текст должен содержать от 150 до 3000 символов)"
+                                  required minlength="150" maxlength="3000"></textarea>
+                    </div>
+
+                    <div id="page_select">
+                        <label for="choose_page">Для какой страницы предназначена статья?</label>
+                        <select name="choose_page" id="choose_page" required>
+                            <option value="" selected disabled label="-- Выберите страницу --"></option>
+                            <option value="MAIN" label="Главная"></option>
+                            <option value="ASTEROIDS" label="Астероиды"></option>
+                            <option value="COMETS" label="Кометы"></option>
+                            <option value="SCIENCEMANN" label="Учёные"></option>
+                            <option value="RESEARCHES" label="Открытия"></option>
+                            <option value="LIVE" label="LIVE"></option>
+                        </select>
+                    </div>
+
+                    <div id="rate">
+                        <label for="choose_quality">Как вы охарактеризуете наш сайт?</label>
+                        <select name="choose_quality" id="choose_quality" multiple size="3">
+                            <option value="good" label="Хороший"></option>
+                            <option value="stylish" label="Визуально приятный"></option>
+                            <option value="informative" label="Информативный"></option>
+                            <option value="ok" label="Нормальный"></option>
+                            <option value="mediocre" label="Посредственный"></option>
+                            <option value="not_good" label="Плохой"></option>
+                            <option value="poor" label="Скудный дизайн"></option>
+                        </select>
+                    </div>
+
+                    <input type="submit" id="subbutton" value="Отправить!">
+
+                </fieldset>
+            </form>
+        </div>
+
+        <button id="button_KILL" name="button_KILL" type="reset" form="form_post">Сбросить форму</button>
+
+
+    </section>
+
+    <div class="container">
+        <div class="box">
+            <span></span>
+            <div class="content">
+                <h2>АСТЕРОИДЫ</h2>
+                <p>Астероиды - невероятное космическое явление. Узнайте о них больше.</p>
+                <a href="asteroids.html">Астероиды</a>
+            </div>
+        </div>
+        <div class="box">
+            <span></span>
+            <div class="content">
+                <h2>КОМЕТЫ</h2>
+                <p>Кометы также славятся своей чудесностью. Узнайте и о них больше.</p>
+                <a href="comets.html">Кометы</a>
+            </div>
+        </div>
+        <div class="box">
+            <span></span>
+            <div class="content">
+                <h2>УЧЁНЫЕ</h2>
+                <p>Об астероидах и кометах не было бы известно без выдающихся деятелей. Не забудьте и о них узнать
+                    больше.</p>
+                <a href="scientists.html">Учёные</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="blur_card_div">
+        <div>
+            <p>Астероиды - невероятное космическое явление. Узнайте о них больше.</p>
+            <a href="asteroids.html" class="arrow_button">Астероиды</a>
+        </div>
+        <div>
+            <p>Кометы также славятся своей чудесностью. Узнайте и о них больше.</p>
+            <a href="comets.html" class="arrow_button">Кометы</a>
+        </div>
+        <div>
+            <p>Об астероидах и кометах не было бы известно без выдающихся деятелей. Не забудьте и о них узнать
+                больше.</p>
+            <a href="scientists.html" class="arrow_button">Учёные</a>
+        </div>
+        <div>
+            <p>Астероиды - невероятное космическое явление. Узнайте о них больше.</p>
+            <a href="asteroids.html" class="arrow_button">Астероиды</a>
+        </div>
+        <div>
+            <p>Кометы также славятся своей чудесностью. Узнайте и о них больше.</p>
+            <a href="comets.html" class="arrow_button">Кометы</a>
+        </div>
+        <div>
+            <p>Об астероидах и кометах не было бы известно без выдающихся деятелей. Не забудьте и о них узнать
+                больше.</p>
+            <a href="scientists.html" class="arrow_button">Учёные</a>
+        </div>
+        <div>
+            <p>Астероиды - невероятное космическое явление. Узнайте о них больше.</p>
+            <a href="asteroids.html" class="arrow_button">Астероиды</a>
+        </div>
+        <div>
+            <p>Кометы также славятся своей чудесностью. Узнайте и о них больше.</p>
+            <a href="comets.html" class="arrow_button">Кометы</a>
+        </div>
+        <div>
+            <p>Об астероидах и кометах не было бы известно без выдающихся деятелей. Не забудьте и о них узнать
+                больше.</p>
+            <a href="scientists.html" class="arrow_button">Учёные</a>
+        </div>
+        <div>
+            <p>Астероиды - невероятное космическое явление. Узнайте о них больше.</p>
+            <a href="asteroids.html" class="arrow_button">Астероиды</a>
+        </div>
+        <div>
+            <p>Кометы также славятся своей чудесностью. Узнайте и о них больше.</p>
+            <a href="comets.html" class="arrow_button">Кометы</a>
+        </div>
+        <div>
+            <p>Об астероидах и кометах не было бы известно без выдающихся деятелей. Не забудьте и о них узнать
+                больше.</p>
+            <a href="scientists.html" class="arrow_button">Учёные</a>
+        </div>
+    </div>
+
+    <div id="anim_line_div">
+        <div>
+            <div>
+                <h3>АСТЕРОИДЫ</h3>
+                <p>Астероиды - невероятное космическое явление. Узнайте о них больше.</p>
+                <a href="asteroids.html" class="arrow_button"><span>Астероиды</span></a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>КОМЕТЫ</h3>
+                <p>Кометы также славятся своей чудесностью. Узнайте и о них больше.</p>
+                <a href="comets.html" class="arrow_button"><span>Кометы</span></a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>УЧЁНЫЕ</h3>
+                <p>Об астероидах и кометах не было бы известно без выдающихся деятелей. Не забудьте и о них узнать
+                    больше.</p>
+                <a href="scientists.html" class="arrow_button"><span>Учёные</span></a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>АСТЕРОИДЫ</h3>
+                <p>Астероиды - невероятное космическое явление. Узнайте о них больше.</p>
+                <a href="asteroids.html" class="arrow_button"><span>Астероиды</span></a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>КОМЕТЫ</h3>
+                <p>Кометы также славятся своей чудесностью. Узнайте и о них больше.</p>
+                <a href="comets.html" class="arrow_button"><span>Кометы</span></a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>УЧЁНЫЕ</h3>
+                <p>Об астероидах и кометах не было бы известно без выдающихся деятелей. Не забудьте и о них узнать
+                    больше.</p>
+                <a href="scientists.html" class="arrow_button"><span>Учёные</span></a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>АСТЕРОИДЫ</h3>
+                <p>Астероиды - невероятное космическое явление. Узнайте о них больше.</p>
+                <a href="asteroids.html" class="arrow_button"><span>Астероиды</span></a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>КОМЕТЫ</h3>
+                <p>Кометы также славятся своей чудесностью. Узнайте и о них больше.</p>
+                <a href="comets.html" class="arrow_button"><span>Кометы</span></a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>УЧЁНЫЕ</h3>
+                <p>Об астероидах и кометах не было бы известно без выдающихся деятелей. Не забудьте и о них узнать
+                    больше.</p>
+                <a href="scientists.html" class="arrow_button"><span>Учёные</span></a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>АСТЕРОИДЫ</h3>
+                <p>Астероиды - невероятное космическое явление. Узнайте о них больше.</p>
+                <a href="asteroids.html" class="arrow_button"><span>Астероиды</span></a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>КОМЕТЫ</h3>
+                <p>Кометы также славятся своей чудесностью. Узнайте и о них больше.</p>
+                <a href="comets.html" class="arrow_button"><span>Кометы</span></a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>УЧЁНЫЕ</h3>
+                <p>Об астероидах и кометах не было бы известно без выдающихся деятелей. Не забудьте и о них узнать
+                    больше.</p>
+                <a href="scientists.html" class="arrow_button"><span>Учёные</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="mid_pictures">
+        <div id="img1">
+            <img src="images/ast1.png">
+            <span>Это - астероид, сгенерированный нейросетью. Действительно похоже!</span>
+        </div>
+        <div id="img2">
+            <img src="images/ast2.png">
+            <span>Так же нарисован и этот астероид. Больше похож на планету.</span>
+        </div>
+        <div id="img3">
+            <img src="images/ast3.png">
+            <span>Вновь отличное сходство!</span>
+        </div>
+        <div id="img4">
+            <img src="images/ast4.png">
+            <span>И снова что-то странное...</span>
+        </div>
+        <div id="img5">
+            <img src="images/com1.png">
+            <span>А это уже комета. Больше похоже на ракету...</span>
+        </div>
+        <div id="img6">
+            <img src="images/com2.png">
+            <span>И это...комета...то есть планета...</span>
+        </div>
+        <div id="img7">
+            <img src="images/com3.png">
+            <span>И всё же у нейросети получилось нарисовать красивую комету! Это многое говорит о технологическом прогрессе.</span>
+        </div>
+    </div>
+
+    <a href="#" class="fa fa-youtube" id="youtube" aria-hidden="true"></a>
+    <a href="#" class="fa fa-facebook" id="facebook" aria-hidden="true"></a>
+    <a href="#" class="fa fa-vine" id="vine" aria-hidden="true"></a>
+
+    <input type="checkbox" id="notif"/>
+    <label for="notif">
+        <span class="material-icons">notifications</span>
+        <span class="icon-button__badge">4</span>
+
+        <ul style="position: absolute">
+            <li>Уведомление 1</li>
+            <li>Уведомление 2</li>
+            <li>Уведомление 3</li>
+            <li>Уведомление 4</li>
+        </ul>
+    </label>
+
+    <a href="#" class="to_start">⇑</a>
+
+</main>
+<!-- Якори -->
+<footer class="copyright" id="main_end">
+    <div><a href="#Topic1" id="r_s">Вернуться в начало</a></div>
+    <div><a href="#Topic2" id="r_i">Вернуться к "Истории изучения"</a></div>
+    <address id="address">
+        <a href="tel:283122">Связаться с нами</a><br>
+        <a href="mailto:mail@gmail.com">Написать письмо</a>
+    </address>
+    <button class="button_SHARE" name="button_SHARE" type="button">Поделиться сайтом<span class="glitter"></span>
+    </button>
+
+    <a href="https://vk.com/id379264399" class="cross_button">IlyaMorozov, 2023-2023</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
